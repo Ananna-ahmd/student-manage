@@ -1,0 +1,6 @@
+body {
+    background-image: url('/studentmanage/public/images/desk-workspace-with-various-elements.jpg'); /* Relative path */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional for a parallax effect */
+}
