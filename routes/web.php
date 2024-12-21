@@ -17,4 +17,7 @@ use App\Http\Controllers\StudentController;
 Route::get('/', function () {
     return view('layout');
 });
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});
 Route::resource("/students", StudentController::class);
